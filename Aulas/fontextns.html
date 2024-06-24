@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'test';
+            src: url('../Fontes/IMPOS+30.ttf') format('opentype') url('../Fontes/IMPOS+30.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: Arial, Arial, Helvetica, sans-serif;
+        }
+        
+        h1 {
+            font-family: 'test', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+       Possimus vel, eius ipsa adipisci enim excepturi. 
+       Voluptatum assumenda ullam saepe molestiae tenetur iusto, 
+       distinctio suscipit unde reprehenderit blanditiis illo doloribus nobis?</p>
+</body>
+</html>
